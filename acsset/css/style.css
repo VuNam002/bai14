@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    padding: 2rem;
+}
+.nav {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.nav li {
+    margin-left: 20px;
+}
+.nav li a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav .active {
+    color: var(--color-1);
+}
+.nav a {
+    color: #1E1E1E;
+}
+.nav a:hover {
+    color: var(--color-1);
+}
+.welcome-arena {
+    background-image: url(../imgaes/banner-bg.png);
+    height: 100vh;
+}
+.welcome-arena .content{
+    text-align: center;
+    margin-top: 200px;
+}
+.welcome-arena h1 {
+    color: var(--color-3);
+}
+.welcome-arena p {
+    color: var(--color-3);
+    margin-top: 30px;
+} 
+.welcome-arena a {
+    padding: 12px 20px;
+    background-color: var(--color-1);
+    border-radius: 20px;
+    font-size: 13px;
+    color: var(--color-3);
+    text-decoration: none;
+}
+.welcome-arena a:hover {
+    background-color: var(--color-4);
+    transition: all 0.6s;
+}
+
+.section-one .inner-content{
+    padding: 30px 0px;
+    display: block;
+    border-radius: 20px;
+    background-color: var(--color-3);
+    margin-bottom: 30px;
+    border: 1px solid #A37777;
+
+}
+.section-one .contenr h2{
+    text-align: center;
+}
+.section-one .contenr p {
+    text-align: center;
+}
+.section-one img {
+    background-color: var(--color-4);
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+
+.section-one {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: -150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.section-one img:hover {
+    background-color: var(--color-1);
+    transition: all 0.6s;
+}
+.section-one h2 {
+    font-size: 18px;
+}
+.section-one p {
+    font-size: 13px;
+    margin-top: 10px;
+    color: var(--color-5);
+}
+
+
+.section-two {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.section-two .inner-content {
+    margin-top: 80px;
+}
+.section-two p {
+    margin-top: 30px;
+    color: var(--color-5);
+}
+.section-two .hr {
+    width: 10%;
+    height: 20%;
+    margin-top: 100px;
+}
+.section-two .inner-images-2 img{
+    margin-left: 200px;
+}
+.section-three {
+    margin-top: 80px;
+    background-image: url(../imgaes/work-process-bg.png);
+    padding: 80px;
+}
+.section-three .inner-content {
+    text-align: center;
+    color: var(--color-3);
+}
+.section-three .inner-content p {
+    margin-top: 30px;
+}
+.section-three .inner-items img{
+    display: block;
+    place-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.section-three .inner-items {
+    background-color: var(--color-3);
+    padding: 35px 30px;
+    border-radius: 20px;
+    border: 1px solid var(--color-3);
+    margin-bottom: 30px;
+}
+.section-three .inner-items h3{
+    color: var(--color-2);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+.section-three .inner-items a{
+    text-decoration: none;
+}
+.section-three .inner-items p {
+    text-align: center;
+    color: var(--color-5);
+    font-size: 14px;
+}
