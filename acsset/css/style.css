@@ -61,7 +61,7 @@ body {
     border-radius: 20px;
     background-color: var(--color-3);
     margin-bottom: 30px;
-    border: 1px solid #A37777;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
 
 }
 .section-one .contenr h2{
@@ -162,4 +162,52 @@ body {
     text-align: center;
     color: var(--color-5);
     font-size: 14px;
+}
+.section-four {
+    margin-top: 80px;
+}
+.section-four .inner-content {
+    text-align: center;
+}
+.section-four p{
+    color: var(--color-5);
+}
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box .items {
+    display: flex;
+}
+.inner-box {
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    padding: 50px;
+}
+.section-four .items img {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+.section-four .items h3 {
+    font-weight: 400;
+    font-size: 17px;
+}
+.section-four .items p {
+    color: var(--color-1);
+}
+.section-four .items h3 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    transition: all 0.3s ease 0s;
+}
+.section-four .items {
+    margin-right: 12px;
 }
