@@ -260,4 +260,80 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+.section-six {
+    margin-top: 80px;
+}
+.section-six .inner-content h2{
+    text-align: center;
+}
+.section-six .inner-content p {
+    text-align: center;
+    margin-bottom: 80px;
+    color: var(--color-5);
+    margin-top: 30px;
+}
+.section-six .sale {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section-six .inner-sale {
+    background-color: var(--color-4);
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.section-six .inner-sale-one {
+    background-color: var(--color-1);
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.section-six .inner-sale-one h4 {
+    text-align: center;
+    color: var(--color-3);
+}
+.section-six .inner-sale-one p {
+    text-align: center;
+    color: var(--color-3);
+}
+.section-six .inner-sale h4 {
+    text-align: center;
+    color: var(--color-3);
+}
+.section-six .inner-sale p {
+    text-align: center;
+    color: var(--color-3);
+}
 
+.section-six .list{
+    margin-top: 30px;
+    margin-right: 25px;
+}
+.section-six .list li{
+    list-style-type:none ;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: var(--color-5);
+    letter-spacing: 0.25px;
+}
+.section-six .mate {
+    text-decoration: line-through;
+}
+.section-six .button {
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: var(--color-4);
+    border-radius: 50px;
+    text-align: center;
+}
+.section-six .button a {
+    color: var(--color-3);
+    text-decoration: none;
+}
+.section-six .button:hover {
+    background-color: var(--color-1);
+    transition: all 0.5s;
+}
